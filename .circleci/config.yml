@@ -42,7 +42,7 @@ commands:
     revert-migrations:
       description: Revert the last migration
       parameters:
-        Workflow_ID: 
+        Workflow_ID:
           type: string
       steps:
       - run:
