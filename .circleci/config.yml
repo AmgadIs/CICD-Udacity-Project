@@ -39,12 +39,12 @@ commands:
 
             
 
-  revert-migrations:
-    description: Revert the last migration
-    parameters:
-      Workflow_ID: 
-        type: string
-    steps:
+    revert-migrations:
+      description: Revert the last migration
+      parameters:
+        Workflow_ID: 
+          type: string
+      steps:
       - run:
           name: Revert migrations
           when: on_fail 
